@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="settings" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messengerclient.SettingsController">
+   <children>
+      <Pane layoutX="85.0" layoutY="88.0" prefHeight="523.0" prefWidth="915.0" style="-fx-background-color: #d3d3d2;">
+         <children>
+            <TextField fx:id="tf_filepath" layoutX="205.0" layoutY="45.0" prefHeight="25.0" prefWidth="198.0" promptText="Change Profile Picture..." style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 20;" styleClass="radius" stylesheets="@../style/style.css" />
+            <Button layoutX="410.0" layoutY="45.0" mnemonicParsing="false" onAction="#chooseImageButton" style="-fx-background-color: white;" styleClass="radius" stylesheets="@../style/style.css" text="Choose" />
+            <Label fx:id="label_confirmpassword" layoutX="80.0" layoutY="305.0" prefHeight="25.0" prefWidth="125.0" text="Confirm Password:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_newpassword" layoutX="80.0" layoutY="265.0" prefHeight="25.0" prefWidth="125.0" text="New Password:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_currentpassword" layoutX="80.0" layoutY="225.0" prefHeight="25.0" prefWidth="125.0" text="Current Password:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_email" layoutX="80.0" layoutY="185.0" prefHeight="25.0" prefWidth="125.0" text="E-Mail:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_newusername" layoutX="80.0" layoutY="145.0" prefHeight="25.0" prefWidth="125.0" text="New Username:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_username" layoutX="80.0" layoutY="105.0" prefHeight="25.0" prefWidth="125.0" text="Username:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_confirmpassword" layoutX="205.0" layoutY="305.0" prefHeight="25.0" prefWidth="198.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 20;" styleClass="radius" stylesheets="@../style/style.css" />
+            <TextField fx:id="tf_newpassword" layoutX="205.0" layoutY="265.0" prefHeight="25.0" prefWidth="198.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 20;" styleClass="radius" stylesheets="@../style/style.css" />
+            <TextField fx:id="tf_currentpassword" layoutX="205.0" layoutY="225.0" prefHeight="25.0" prefWidth="198.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 20;" styleClass="radius" stylesheets="@../style/style.css" />
+            <TextField fx:id="tf_email" layoutX="205.0" layoutY="185.0" prefHeight="25.0" prefWidth="198.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 20;" styleClass="radius" stylesheets="@../style/style.css" />
+            <TextField fx:id="tf_newusername" layoutX="205.0" layoutY="145.0" prefHeight="25.0" prefWidth="198.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 20;" styleClass="radius" stylesheets="@../style/style.css" />
+            <TextField fx:id="tf_username" layoutX="205.0" layoutY="105.0" prefHeight="25.0" prefWidth="198.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 20;" styleClass="radius" stylesheets="@../style/style.css" />
+            <ImageView fx:id="proImage" fitHeight="70.0" fitWidth="77.0" layoutX="82.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-name-100.png" />
+               </image></ImageView>
+            <Label layoutX="585.0" layoutY="46.0" prefHeight="25.0" prefWidth="185.0" text="Change Colour of Messenger:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <RadioButton layoutX="567.0" layoutY="110.0" mnemonicParsing="false" />
+            <RadioButton layoutX="763.0" layoutY="110.0" mnemonicParsing="false" />
+            <RadioButton layoutX="567.0" layoutY="230.0" mnemonicParsing="false" />
+            <RadioButton layoutX="763.0" layoutY="230.0" mnemonicParsing="false" />
+            <ImageView fitHeight="85.0" fitWidth="125.0" layoutX="533.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-design-100.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="85.0" fitWidth="125.0" layoutX="729.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-design-100.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="85.0" fitWidth="125.0" layoutX="533.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-design-100.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="85.0" fitWidth="125.0" layoutX="729.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-design-100.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button_cancel" layoutX="325.0" layoutY="456.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #7bd2ca;" text="CANCEL">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_save" layoutX="483.0" layoutY="456.0" mnemonicParsing="false" onAction="#saveImage" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #43beb5;" text="SAVE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_changeusername" layoutX="410.0" layoutY="145.0" mnemonicParsing="false" style="-fx-background-color: white;" styleClass="radius" stylesheets="@../style/style.css" text="Change" />
+            <Button fx:id="button_changepassword" layoutX="410.0" layoutY="305.0" mnemonicParsing="false" style="-fx-background-color: white;" styleClass="radius" stylesheets="@../style/style.css" text="Change" />
+         </children></Pane>
+      <Pane prefHeight="700.0" prefWidth="85.0" style="-fx-background-color: #43beb5;">
+         <children>
+            <Button fx:id="button_logout" layoutX="-3.0" layoutY="611.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="93.0" styleClass="transparent-background" stylesheets="@../style/style.css">
+               <graphic>
+                  <ImageView fitHeight="130.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icons8-exit-100.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="button_settings" layoutX="5.0" layoutY="369.0" mnemonicParsing="false" styleClass="transparent-background" stylesheets="@../style/style.css">
+               <graphic>
+                  <ImageView fitHeight="90.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icons8-gear-100.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="button_chats" layoutX="2.0" layoutY="296.0" mnemonicParsing="false" styleClass="transparent-background" stylesheets="@../style/style.css">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icons8-chat-100.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Circle fx:id="showProfilePic" layoutX="43.0" layoutY="45.0" radius="38.0" stroke="BLACK" strokeType="INSIDE" />
+         </children></Pane>
+      <Pane layoutX="85.0" prefHeight="90.0" prefWidth="915.0" style="-fx-background-color: #7bd2ca;">
+         <children>
+            <Label fx:id="label_settings" layoutX="377.0" layoutY="18.0" prefHeight="53.0" prefWidth="175.0" text="SETTINGS" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Pane layoutY="86.0" prefHeight="5.0" prefWidth="915.0" style="-fx-background-color: #43beb5;" />
+         </children>
+      </Pane>
+      <Pane layoutX="85.0" layoutY="610.0" prefHeight="90.0" prefWidth="915.0" style="-fx-background-color: #7bd2ca;">
+         <children>
+            <Pane layoutY="-2.0" prefHeight="5.0" prefWidth="915.0" style="-fx-background-color: #43beb5;" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

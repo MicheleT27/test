@@ -1,0 +1,16 @@
+.dark-background{
+    -fx-background-color: #43beb4
+    }
+
+.lighter-background{
+    -fx-background-color: #7bd2cb
+    }
+
+
+.transparent-background{
+    -fx-background-color: rgba(0,0,0,0);
+    }
+
+.radius{
+    -fx-background-radius: 100px;
+    }
