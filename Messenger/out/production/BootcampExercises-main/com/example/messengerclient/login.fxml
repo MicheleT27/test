@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="login" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messengerclient.LogInController">
+   <children>
+      <Pane prefHeight="700.0" prefWidth="323.0" style="-fx-background-color: #43beb5;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="62.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-chat-100.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="label_messenger" layoutX="73.0" layoutY="52.0" text="Messenger">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_loginsignup" layoutX="91.0" layoutY="116.0" text="LogIn &amp; SignUp">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Label fx:id="label_username" layoutX="461.0" layoutY="335.0" text="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_password" layoutX="463.0" layoutY="400.0" text="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_username" layoutX="598.0" layoutY="329.0" prefHeight="40.0" prefWidth="265.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Button fx:id="button_login" layoutX="598.0" layoutY="461.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="265.0" style="-fx-background-color: #43beb5;" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="620.0" layoutY="553.0" text="Not yet signed up?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_signupnow" layoutX="744.0" layoutY="548.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Sign Up now!" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="120.0" fitWidth="110.0" layoutX="611.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-lock-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="110.0" layoutX="731.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-unlock-100.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="tf_password" layoutX="598.0" layoutY="396.0" prefHeight="40.0" prefWidth="265.0" />
+   </children>
+</AnchorPane>

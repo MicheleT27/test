@@ -39,7 +39,7 @@ public class DBUtils {
         stage.show();
     }
 
-    public static void signUpUser(ActionEvent event, String username, String email, String password) {
+    public static void signUpUser(ActionEvent event, String username, String email, String password, String gender) {
         Connection connection = null;
         PreparedStatement psInsert = null;
         PreparedStatement psCheckUserExists = null;
@@ -57,10 +57,11 @@ public class DBUtils {
                 alert.setContentText("You cannot use this username.");
                 alert.show();
             } else {
-                psInsert = connection.prepareStatement("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
+                psInsert = connection.prepareStatement("INSERT INTO users (username, email, password, gender) VALUES (?, ?, ?, ?)");
                 psInsert.setString(1, username);
                 psInsert.setString(2, email);
                 psInsert.setString(3, password);
+                psInsert.setString(4, gender);
                 psInsert.executeUpdate();
 
             }
@@ -117,7 +118,7 @@ public class DBUtils {
                 while (resultSet.next()) {
                     String retrievedPassword = resultSet.getString("password");
                     if (retrievedPassword.equals(password)) {
-                        changeScene(event, "hello-view.fxml", "Welcome to Messenger!", username, password);
+                        changeScene(event, "hello-view.fxml", "Messenger", username, password);
                     } else {
                         System.out.println("Passwords did not match!");
                         Alert alert = new Alert(Alert.AlertType.ERROR);

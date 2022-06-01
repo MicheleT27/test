@@ -85,8 +85,14 @@ public class SettingsController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-        showProfilePic.setStroke(Color.valueOf("#00000"));
+        showProfilePic.setStroke(Color.valueOf("#000000"));
         Image image;
+        if(SignUpController.gender.equalsIgnoreCase("Male")) {
+            image = new Image("img/icons8-user-male-100.png", false);
+        } else {
+            image = new Image("img/icons8-female-user-100.png", false);
+            proImage.setImage(image);
+        }
         showProfilePic.setFill(new ImagePattern(image));
 
         button_settings.setOnAction(new EventHandler<ActionEvent>() {

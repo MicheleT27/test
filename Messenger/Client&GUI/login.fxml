@@ -39,10 +39,6 @@
          <font>
             <Font size="18.0" />
          </font></TextField>
-      <TextField fx:id="tf_password" layoutX="598.0" layoutY="394.0" prefHeight="40.0" prefWidth="265.0">
-         <font>
-            <Font size="18.0" />
-         </font></TextField>
       <Button fx:id="button_login" layoutX="598.0" layoutY="461.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="265.0" style="-fx-background-color: #43beb5;" text="Login">
          <font>
             <Font size="18.0" />
@@ -68,5 +64,6 @@
             <Image url="@../img/icons8-unlock-100.png" />
          </image>
       </ImageView>
+      <PasswordField fx:id="tf_password" layoutX="598.0" layoutY="396.0" prefHeight="40.0" prefWidth="265.0" />
    </children>
 </AnchorPane>

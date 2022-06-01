@@ -31,7 +31,7 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable {
+public class HelloController extends LogInController implements Initializable {
 
     @FXML
     private AnchorPane messenger;
@@ -112,7 +112,7 @@ public class HelloController implements Initializable {
         button_settings.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                DBUtils.changeScene(event, "setting.fxml", "Settings Page", null, null);
+                DBUtils.changeScene(event, "settings.fxml", "Settings Page", null, null);
             }
         });
 

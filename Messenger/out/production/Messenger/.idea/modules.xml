@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bootcamp/Bootcamp.iml" filepath="$PROJECT_DIR$/Bootcamp/Bootcamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BootcampExercises-main.iml" filepath="$PROJECT_DIR$/BootcampExercises-main.iml" />
+    </modules>
+  </component>
+</project>
