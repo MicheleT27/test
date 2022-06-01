@@ -50,7 +50,7 @@
             <TextField fx:id="tf_username" layoutX="205.0" layoutY="105.0" prefHeight="25.0" prefWidth="198.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-radius: 20;" styleClass="radius" stylesheets="@../style/style.css" />
             <ImageView fx:id="proImage" fitHeight="70.0" fitWidth="77.0" layoutX="82.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/icons8-name-100.png" />
+                  <Image url="https://img.icons8.com/ios-filled/344/name.png" />
                </image></ImageView>
             <Label layoutX="585.0" layoutY="46.0" prefHeight="25.0" prefWidth="185.0" text="Change Colour of Messenger:">
                <font>
@@ -63,22 +63,22 @@
             <RadioButton layoutX="763.0" layoutY="230.0" mnemonicParsing="false" />
             <ImageView fitHeight="85.0" fitWidth="125.0" layoutX="533.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/icons8-design-100.png" />
+                  <Image url="https://img.icons8.com/external-flatart-icons-solid-flatarticons/344/external-design-marketing-flatart-icons-solid-flatarticons.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="85.0" fitWidth="125.0" layoutX="729.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/icons8-design-100.png" />
+                  <Image url="https://img.icons8.com/external-flatart-icons-solid-flatarticons/344/external-design-marketing-flatart-icons-solid-flatarticons.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="85.0" fitWidth="125.0" layoutX="533.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/icons8-design-100.png" />
+                  <Image url="https://img.icons8.com/external-flatart-icons-solid-flatarticons/344/external-design-marketing-flatart-icons-solid-flatarticons.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="85.0" fitWidth="125.0" layoutX="729.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/icons8-design-100.png" />
+                  <Image url="https://img.icons8.com/external-flatart-icons-solid-flatarticons/344/external-design-marketing-flatart-icons-solid-flatarticons.png" />
                </image>
             </ImageView>
             <Button fx:id="button_cancel" layoutX="325.0" layoutY="456.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #7bd2ca;" text="CANCEL">
@@ -100,7 +100,7 @@
                <graphic>
                   <ImageView fitHeight="130.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../img/icons8-exit-100.png" />
+                        <Image url="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/344/external-exit-essentials-tanah-basah-glyph-tanah-basah-2.png" />
                      </image>
                   </ImageView>
                </graphic></Button>
@@ -108,7 +108,7 @@
                <graphic>
                   <ImageView fitHeight="90.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../img/icons8-gear-100.png" />
+                        <Image url="https://img.icons8.com/ios-filled/344/settings.png" />
                      </image>
                   </ImageView>
                </graphic></Button>
@@ -116,7 +116,7 @@
                <graphic>
                   <ImageView fitHeight="80.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../img/icons8-chat-100.png" />
+                        <Image url="https://img.icons8.com/ios-glyphs/344/chat.png" />
                      </image>
                   </ImageView>
                </graphic></Button>

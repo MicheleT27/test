@@ -20,7 +20,7 @@
                </font></Label>
             <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="62.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/icons8-chat-100.png" />
+                  <Image url="https://img.icons8.com/ios-glyphs/344/chat.png" />
                </image>
             </ImageView>
          </children></Pane>
@@ -63,12 +63,12 @@
       </Button>
       <ImageView fitHeight="120.0" fitWidth="110.0" layoutX="655.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-lock-100.png" />
+            <Image url="https://img.icons8.com/external-bearicons-glyph-bearicons/344/external-lock-call-to-action-bearicons-glyph-bearicons.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="120.0" fitWidth="110.0" layoutX="765.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../img/icons8-unlock-100.png" />
+            <Image url="https://img.icons8.com/external-bearicons-glyph-bearicons/344/external-unlock-call-to-action-bearicons-glyph-bearicons.png" />
          </image>
       </ImageView>
       <Label fx:id="label_gender" layoutX="463.0" layoutY="469.0" text="Gender:">

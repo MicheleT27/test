@@ -19,7 +19,7 @@
                            <graphic>
                               <ImageView fitHeight="80.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../img/icons8-chat-100.png" />
+                                    <Image url="https://img.icons8.com/ios-glyphs/344/chat.png" />
                                  </image>
                               </ImageView>
                            </graphic></Button>
@@ -27,7 +27,7 @@
                            <graphic>
                               <ImageView fitHeight="90.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../img/icons8-gear-100.png" />
+                                    <Image url="https://img.icons8.com/ios-filled/344/settings.png" />
                                  </image>
                               </ImageView>
                            </graphic></Button>
@@ -35,7 +35,7 @@
                            <graphic>
                               <ImageView fitHeight="130.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../img/icons8-exit-100.png" />
+                                    <Image url="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/344/external-exit-essentials-tanah-basah-glyph-tanah-basah-2.png" />
                                  </image>
                               </ImageView>
                            </graphic></Button>
@@ -50,7 +50,7 @@
                      <children>
                         <ImageView fx:id="img_search" fitHeight="25.0" fitWidth="24.0" layoutX="10.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../img/icons8-search-100.png" />
+                              <Image url="https://img.icons8.com/material-outlined/344/search.png" />
                            </image>
                         </ImageView>
                         <TextField fx:id="tf_search" blendMode="ADD" layoutX="30.0" layoutY="3.0" prefHeight="24.0" prefWidth="157.0" promptText="Search..." styleClass="transparent-background" stylesheets="@../style/style.css" />
@@ -66,12 +66,12 @@
             <TextField fx:id="tf_message" layoutX="118.0" layoutY="6.0" prefHeight="40.0" prefWidth="501.0" promptText="Write message here..." styleClass="transparent-background" stylesheets="@../style/style.css" />
             <ImageView fitHeight="46.0" fitWidth="43.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/icons8-emoji-100.png" />
+                  <Image url="https://img.icons8.com/external-tulpahn-basic-outline-tulpahn/344/external-emoji-birthday-party-tulpahn-basic-outline-tulpahn.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="52.0" fitWidth="46.0" layoutX="62.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../img/icons8-attach-100.png" />
+                  <Image url="https://img.icons8.com/ios/344/attach.png" />
                </image>
             </ImageView>
             <Button fx:id="button_send" layoutX="623.0" layoutY="8.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="70.0" stylesheets="@../style/style.css" text="SEND">
